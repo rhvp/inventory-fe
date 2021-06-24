@@ -5,6 +5,11 @@
   font-family: "Quicksand";
   color: #333;
 }
+
+.home h1 {
+  margin: auto;
+  width: 50%;
+}
 .navbar {
   padding: 20px;
   display: flex;
@@ -111,7 +116,8 @@
   border-radius: 8px;
   cursor: pointer;
   padding: 10px 16px;
-  margin: 20px 0;
+  width: 50%;
+  margin: auto;
 }
 
 button a {
