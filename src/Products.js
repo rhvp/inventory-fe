@@ -18,7 +18,7 @@ const Products = () => {
                     </div>
                 ))
             }
-            <button><Link to="/create-product">Add</Link></button>
+            <Link to="/create-product"><button>Add</button></Link>
         </div>
      );
 }

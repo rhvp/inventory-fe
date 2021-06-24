@@ -15,7 +15,7 @@ const ListCategories = () => {
                         </Link>
                     </div>
                 ))}
-                <button><Link to="/create-category">Add</Link></button>
+                <Link to="/create-category"><button>Add</button></Link>
             </div>
      );
 }
