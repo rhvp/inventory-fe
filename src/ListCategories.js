@@ -5,7 +5,6 @@ const ListCategories = () => {
     const {data: categories, isPending, error} = useFetch('https://inventory-be-app.herokuapp.com/api/v1/categories');
     return ( 
         <div className="list-main">
-                <Link to="/create-category">Add</Link>
                 <h1>Categories</h1>
                 {error && <div> {error} </div>}
                 {isPending && <div>Loading...</div>}
@@ -16,6 +15,7 @@ const ListCategories = () => {
                         </Link>
                     </div>
                 ))}
+                <button><Link to="/create-category">Add</Link></button>
             </div>
      );
 }

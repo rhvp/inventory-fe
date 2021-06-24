@@ -35,7 +35,7 @@ const Createcategory = () => {
     }
     return ( 
         <div className="create">
-        <h2>Add News</h2>
+        <h2>Add Category</h2>
         <form onSubmit={handleSubmit}>
             <label>Name:</label>
             <input 

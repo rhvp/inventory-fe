@@ -5,7 +5,6 @@ const Products = () => {
     const {data: products, isPending, error} = useFetch('https://inventory-be-app.herokuapp.com/api/v1/products');
     return ( 
         <div className="list-main">
-            <Link to="/create-product">Add</Link>
             <h1>All Products</h1>
             {error && <div> {error} </div>}
             {isPending && <div>Loading...</div>}
@@ -19,6 +18,7 @@ const Products = () => {
                     </div>
                 ))
             }
+            <button><Link to="/create-product">Add</Link></button>
         </div>
      );
 }

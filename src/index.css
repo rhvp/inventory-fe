@@ -103,3 +103,17 @@
   border-radius: 8px;
   cursor: pointer;
 }
+
+.list-main button {
+  background: #f1356d;
+  color: #fff;
+  border: 0;
+  border-radius: 8px;
+  cursor: pointer;
+  padding: 10px 16px;
+  margin: 20px 0;
+}
+
+button a {
+  text-decoration: none;
+}
